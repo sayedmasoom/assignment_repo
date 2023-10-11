@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 300px;
+    background-image: url("../Images/Background\ image.png");
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.p-con {
+    border: 1px solid gray;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.raisin-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100px;
+    background-color: rgb(236, 166, 35);
+    height: 50px;
+}
